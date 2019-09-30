@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brock Collector Capstone</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+</head>
+<body>
+    <div class="container">
+        <header role="banner" aria-live="polite">
+          <a href="startPage.html"><h1>My Collections</h1></a>
+          <form id="js-create-create-form">
+            <button aria-label="click to create a new Collection" class="header-button js-header-button" type="submit" ><a href="createCollection.html">CREATE A COLLECTION</a></button>
+          </form>
+        </header>
+        <main role="main" class="collection-panel js-collection-panel">
+          <ul class="test-case" aria-live="polite"><a href="#"><h2>Game Collection - Expanded</h2></a>
+            <li>
+                <h3>Gears of War: Epic Edition</h3>
+                <section>
+                  <section class="expanded">
+                      <ul>
+                        <h3>Detailed View</h3>
+                        <li><img href="#" width="100px" height="150px"/></li>
+                        <li>Collectors Edition: True</li>
+                        <li>Year Released: 2003</li>
+                        <li>Description: a video game franchise created by Epic Games, developed and managed by The Coalition, and owned and published by Xbox Game Studios. The series focuses on the conflict between humanity, the subterranean reptilian hominids known as the Locust Horde, and their mutated counterparts, the Lambent.</li>
+                        <li>Condition: Mint</li>
+                        <li>Comes With: Statue of Marcus Fenix</li>
+                    </ul>
+                    <button>Delete Item</button>
+                    <a href="editItem.html"><button>Edit Item</button></a>
+                  </section>
+                </section>
+            </li>
+            <li>
+                <h3>Halo 2</h3>
+                <img href="#" width="50px" height="75px"/>
+                <button>See Details</button>
+            </li>
+            <li>
+                <h3>Final Fantasy X</h3>
+                <img href="#" width="50px" height="75px"/>
+                <button>See Details</button>
+            </li></br>
+            <li>
+              <a href="createItem.html"><button>Add New Item into Collection</button></a>
+            </li>
+          </ul>
+          <ul class="test-case-closed" aria-live="polite"><a href="#"><h2>Book Collection</h2></a>
+          </ul>
+          <ul class="test-case-closed" aria-live="polite"><a href="#"><h2>Poster Collection</h2></a>
+          </ul>
+          <ul class="test-case-closed" aria-live="polite"><a href="#"><h2>Game Console Collection</h2></a>
+          </ul>
+          <code>
+            const example store = {
+                items: [
+                    { 
+                    title: 'Gears of War: Epic Edition',
+                    image: 'image url of item',
+                    description: 'a video game franchise created by Epic Games, developed and managed by The Coalition, and owned and published by Xbox Game Studios. The series focuses on the conflict between humanity, the subterranean reptilian hominids known as the Locust Horde, and their mutated counterparts, the Lambent.',
+                    price: '85$',
+                    collectors: true,
+                    condition: mint,
+                    'year released': 2003 
+                    }
+                ]
+            };
+          </code>
+        </main>
+      </div>
+</body>
+</html>
