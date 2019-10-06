@@ -10,9 +10,12 @@
 <body>
     <div class="container">
         <header role="banner" aria-live="polite">
-          <a href="startPage.html"><h1>My Collections</h1></a>
+          <a href="/Wireframes/homePage.html"><h1>My Collections</h1></a>
+          <a href="/Wireframes/landingPage.html"><button>Logout</button></a></br></br>
           <form id="js-create-create-form">
-            <button aria-label="click to create a new Collection" class="header-button js-header-button" type="submit" ><a href="createCollection.html">CREATE A COLLECTION</a></button>
+            <button aria-label="click to create a new Collection" class="header-button js-header-button" type="submit" >
+              <a href="createCollection.html">CREATE A COLLECTION</a>
+            </button>
           </form>
         </header>
         <main role="main" class="collection-panel js-collection-panel">
@@ -29,6 +32,8 @@
                         <li>Description: a video game franchise created by Epic Games, developed and managed by The Coalition, and owned and published by Xbox Game Studios. The series focuses on the conflict between humanity, the subterranean reptilian hominids known as the Locust Horde, and their mutated counterparts, the Lambent.</li>
                         <li>Condition: Mint</li>
                         <li>Comes With: Statue of Marcus Fenix</li>
+                        <li>Price: 85$</li>
+                        <li>Buy Here: <a href="#">Ebay link</a></li>
                     </ul>
                     <button>Delete Item</button>
                     <a href="editItem.html"><button>Edit Item</button></a>
@@ -55,6 +60,8 @@
           </ul>
           <ul class="test-case-closed" aria-live="polite"><a href="#"><h2>Game Console Collection</h2></a>
           </ul>
+          <ul class="test-case-closed" aria-live="polite"><a href="#"><h2>Pokemon Card Collection</h2></a>
+          </ul>
           <code>
             const example store = {
                 items: [
@@ -65,7 +72,8 @@
                     price: '85$',
                     collectors: true,
                     condition: mint,
-                    'year released': 2003 
+                    yearReleased: 2003 ,
+                    purchaseLink: someurl.com
                     }
                 ]
             };
