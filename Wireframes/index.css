@@ -1,15 +1,30 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(66, 66, 66);
+    color: white;
+ }
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
 
 .box{
-    background:white;
-    width:300px;
+    background:rgb(86, 32, 138);
+    width:35%;
     border-radius:6px;
     margin: 0 auto 0 auto;
     padding:30px;
     border: #2980b9 4px solid; 
     text-align: center; 
+  }
+  a:visited {
+      color: rgb(156, 156, 156);
   }
 
   input[type=text], input[type=email], input[type=password] {
@@ -34,3 +49,12 @@
       border-radius: 6px;
       text-align: center;
   }
+
+  .homeContainer {
+    padding: 20px;
+    width: 85%;
+    margin: 0 auto;
+    border: #2980b9 4px solid; 
+    border-radius: 6px;
+    text-align: center;
+}
