@@ -15,12 +15,12 @@ ul {
 }
 
 .box{
-    background:rgb(86, 32, 138);
+    background:rgb(37, 37, 37);
     width:35%;
     border-radius:6px;
     margin: 100px auto;
     padding:30px;
-    border: #2980b9 4px solid; 
+    border: #a8a8a8 4px solid; 
     text-align: center; 
   }
   a:visited {
@@ -42,7 +42,7 @@ ul {
   }
 
   .container {
-      background:rgb(86, 32, 138);
+      background:rgb(29, 29, 29);
       padding: 20px;
       width: 50%;
       margin: 0 auto;
